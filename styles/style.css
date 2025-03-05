@@ -2,12 +2,15 @@
 *
 {
     font-family: Open Sans;
+   
 }
 .header
 {
     background-image: url("../images/developer.png"),url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-color: rgb(255, 248, 243);
+    height: 755px;
     
 }
 nav{
@@ -80,3 +83,52 @@ main .btn
 {
     width: 550px;
 }
+main{
+    max-width: 912px;
+    margin: 0 auto;
+}
+.about
+{
+    background-color: rgb(255, 248, 243);
+    border-radius: 10px;
+    padding: 50px 150px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.section-title
+{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section-description
+{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.about-items
+{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title
+{
+    color: rgb(117, 117, 117)
+}
+.item-description
+{
+    font-weight: bold;
+    color: rgb(117, 117, 117);
+    
+}
+
